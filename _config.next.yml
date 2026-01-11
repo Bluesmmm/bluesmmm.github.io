@@ -3,6 +3,20 @@
 # This file overrides the default theme/_config.yml
 # ===============================================================
 
+# Custom File Path
+custom_file_path:
+  head: source/_data/head.njk
+  #header: source/_data/header.njk
+  #sidebar: source/_data/sidebar.njk
+  #postMeta: source/_data/post-meta.njk
+  #postBodyStart: source/_data/post-body-start.njk
+  #postBodyEnd: source/_data/post-body-end.njk
+  #footer: source/_data/footer.njk
+  #bodyEnd: source/_data/body-end.njk
+  #variable: source/_data/variables.styl
+  #mixin: source/_data/mixins.styl
+  style: source/_data/styles.styl
+
 # Scheme Settings
 scheme: Gemini
 

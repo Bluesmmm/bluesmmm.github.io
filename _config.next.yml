@@ -1,0 +1,128 @@
+# ===============================================================
+# NexT Theme Custom Configuration
+# This file overrides the default theme/_config.yml
+# ===============================================================
+
+# Scheme Settings
+scheme: Gemini
+
+# Dark Mode
+darkmode: true
+
+# Menu Settings
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  about: /about/ || fa fa-user
+
+# Sidebar Settings
+sidebar:
+  position: left
+  display: post
+  padding: 18
+  offset: 12
+
+# Site Information
+favicon:
+  small: /images/favicon-16x16-next.png
+  medium: /images/favicon-32x32-next.png
+  apple_touch_icon: /images/apple-touch-icon-next.png
+  safari_pinned_tab: /images/logo.svg
+
+# Social Links
+social:
+  GitHub: https://github.com/Bluesmmm || fab fa-github
+  E-Mail: mailto:contact@jeffliu.dev || fa fa-envelope
+
+# Footer Settings
+footer:
+  since: 2025
+  icon:
+    name: fa fa-heart
+    animated: true
+    color: "#ff0000"
+  copyright: Jeff Liu
+  powered: true
+
+# Post Settings
+excerpt_description: true
+read_more_btn: true
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: true
+  categories: true
+post_navigation: left
+
+# Code Block Settings
+codeblock:
+  theme:
+    light: default
+    dark: stackoverflow-dark
+  copy_button:
+    enable: true
+    style: flat
+  language: true
+
+# Back to Top
+back2top:
+  enable: true
+  scrollpercent: true
+
+# Reading Progress
+reading_progress:
+  enable: true
+  position: top
+  reversed: false
+  color: "#37c6c0"
+  height: 3px
+
+# SEO Settings
+index_with_subtitle: true
+google_site_verification:
+bing_site_verification:
+baidu_site_verification:
+
+# Animation Settings
+motion:
+  enable: true
+  async: false
+  duration: 200
+  transition:
+    menu_item: fadeInDown
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInLeft
+    sidebar: fadeInUp
+
+# Math Settings
+math:
+  every_page: false
+  mathjax:
+    enable: false
+    tags: none
+  katex:
+    enable: false
+    copy_tex: false
+
+# External Libraries
+fancybox: true
+lazyload: true
+pangu: true
+
+# Local Search
+local_search:
+  enable: true
+  top_n_per_article: 3
+  unescape: false
+  preload: true
+
+# Google Analytics (add your tracking ID when ready)
+google_analytics:
+  tracking_id:
+  only_pageview: false
